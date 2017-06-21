@@ -1,0 +1,40 @@
+MIACME,v0.3
+Experimental setup,
+Cell type,Cell line [CLO_0000001]
+Cell details,B-cell [CL:0000236]
+,Ba/F3 cell [CLO:0001842]
+Treatment (Experimental variable),Bcr-Abl [PR:000044437] oncogene variants
+Treatment (Experimental variable),y-27632 [CHEBI:75393] (Rock inhibitor at 10 μM)
+,
+Microenvironment,substrate → RBM
+,NB: BD Matrigel™ Basement Membrane [GO:0005604] Matrix
+,
+additional information (optional - free text?),
+,
+Assay Name,single-cell migration [*]
+Cell Input for Assay,suspension cells
+suspension cells,
+,
+Medium (not minimal requirement),RPMI 1640 [producer] + FBS (fetal bovine serum) [CCONT:0000048]
+,
+Imaging Condition,
+Imaging modality (OBI: http://purl.obolibrary.org/obo/OBI_0000185),Phase-contrast [ERO:0001636]
+,
+End-point/Time-lapse,
+time-lapse FBbi:00000249,
+duration → 6 h,
+frequency → 1.5 min,
+Objective lens (not minimal requirement) [ERO:0000453],
+20x,
+NA (numerical aperture),
+Pixel size (*),
+0.645 µm x 0.645 µm,
+Channel #1 (*),
+Cells [CL:0000000],
+Data,
+Raw Images,
+Number of images: 144 images x 12 wells = 1728 images,
+Processed Images,
+Images with single-cell tracks superimposed,
+Extracted Features,
+"x, y, t (as in track spec 0.1)",
