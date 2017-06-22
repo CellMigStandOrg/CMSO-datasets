@@ -1,0 +1,17 @@
+language: python
+
+python:
+  - "3.4"
+
+cache: pip
+
+before_install:
+  - pip install --upgrade pip
+  - pip install flake8
+  - pip install isatools
+
+before_script:
+  - flake8 .
+
+script:
+  - python check_isa.py
