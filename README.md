@@ -9,9 +9,9 @@ Within each folder, the top-level README describes the dataset linking to the
 reference  publication if available. The metadata files represent the three
 units of information defined by CMSO:
 
-- the experimental setup expressed using the ISA format
-- the imaging metadata expressed using the OME-XML format
-- the tracking data expressing using the CMSO Biotracks format
+- the experimental setup, expressed using the [ISA](http://isa-tools.org) format
+- the imaging metadata, expressed via [OME companion files](https://www.openmicroscopy.org/site/support/ome-model/ome-tiff/file-structure.html)
+- the tracking data, expressed using the CMSO [Biotracks](https://github.com/CellMigStandOrg/biotracks) format
 
 How to add a new dataset?
 -------------------------

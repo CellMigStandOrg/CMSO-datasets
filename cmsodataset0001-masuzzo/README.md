@@ -1,3 +1,7 @@
 Data from [Masuzzo et al. 2017](http://dx.doi.org/10.1038/srep42383).
 
-The sample included here is a small subset (only the first of 144 original frames is present) of the dataset corresponding to a single well from the plate used in the Ba/F3 experiment. In addition, the sample has been converted from the original plain TIFF format to [OME-TIFF](https://www.openmicroscopy.org/site/support/ome-model/ome-tiff/file-structure.html), in the binary-only + companion version.
+The above publication describes two experiments. Metadata included here refers to the first experiment on Ba/F3 cells. Image data (not included here) consists of 12 144-frame TIFF movies, each relative to a well in a 48-well plate. Currently, we have:
+
+- An OME-TIFF companion XML file that groups the 12 image data files, including information on the plate layout
+- An ISA dataset containing the experimental metadata
+- A biotracks datapackage containing TrackMate data
