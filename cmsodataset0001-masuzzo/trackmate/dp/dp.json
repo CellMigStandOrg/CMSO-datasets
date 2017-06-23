@@ -2,10 +2,10 @@
     "author": "paola masuzzo",
     "author_email": "paola.masuzzo@email.com",
     "author_institute": "VIB",
-    "name": "CMSO_tracks",
+    "name": "cmso_tracks",
     "resources": [
         {
-            "name": "objectsTable",
+            "name": "objects_table",
             "path": "objects.csv",
             "schema": {
                 "fields": [
@@ -45,7 +45,7 @@
             }
         },
         {
-            "name": "linksTable",
+            "name": "links_table",
             "path": "links.csv",
             "schema": {
                 "fields": [
@@ -70,7 +70,7 @@
                         "reference": {
                             "datapackage": "",
                             "fields": "SPOT_ID",
-                            "resource": "objectsTable"
+                            "resource": "objects_table"
                         }
                     }
                 ]
