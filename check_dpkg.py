@@ -1,12 +1,13 @@
 import glob
 
-import datapackage
+from biotracks.validation import Validator
 
 
 def main():
+    validator = Validator()
     for fn in glob.glob("cmso*/*/dp/*.json"):
         print("validating %s" % fn)
-        datapackage.DataPackage(fn).validate()
+        validator.validate(fn)
 
 
 if __name__ == "__main__":

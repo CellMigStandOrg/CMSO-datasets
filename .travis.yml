@@ -10,6 +10,7 @@ before_install:
   - pip install flake8
   - pip install isatools
   - pip install datapackage
+  - pip install biotracks
 
 before_script:
   - flake8 .
