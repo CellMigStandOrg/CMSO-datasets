@@ -1,11 +1,10 @@
 {
-    "author": "paola masuzzo",
-    "author_email": "paola.masuzzo@email.com",
-    "author_institute": "VIB",
+    "cmso_space_unit": "micron",
+    "cmso_time_unit": "frame",
     "name": "cmso_tracks",
     "resources": [
         {
-            "name": "objects_table",
+            "name": "cmso_objects_table",
             "path": "objects.csv",
             "schema": {
                 "fields": [
@@ -15,67 +14,66 @@
                         },
                         "description": "",
                         "format": "default",
-                        "name": "SPOT_ID",
+                        "name": "cmso_object_id",
                         "title": "",
                         "type": "integer"
                     },
                     {
                         "description": "",
                         "format": "default",
-                        "name": "FRAME",
+                        "name": "cmso_frame_id",
                         "title": "",
                         "type": "integer"
                     },
                     {
                         "description": "",
                         "format": "default",
-                        "name": "POSITION_X",
+                        "name": "cmso_x_coord",
                         "title": "",
                         "type": "number"
                     },
                     {
                         "description": "",
                         "format": "default",
-                        "name": "POSITION_Y",
+                        "name": "cmso_y_coord",
                         "title": "",
                         "type": "number"
                     }
                 ],
-                "primaryKey": "SPOT_ID"
+                "primaryKey": "cmso_object_id"
             }
         },
         {
-            "name": "links_table",
+            "name": "cmso_links_table",
             "path": "links.csv",
             "schema": {
                 "fields": [
                     {
                         "description": "",
                         "format": "default",
-                        "name": "LINK_ID",
+                        "name": "cmso_link_id",
                         "title": "",
                         "type": "integer"
                     },
                     {
                         "description": "",
                         "format": "default",
-                        "name": "SPOT_ID",
+                        "name": "cmso_object_id",
                         "title": "",
                         "type": "integer"
                     }
                 ],
                 "foreignKeys": [
                     {
-                        "fields": "SPOT_ID",
+                        "fields": "cmso_object_id",
                         "reference": {
                             "datapackage": "",
-                            "fields": "SPOT_ID",
-                            "resource": "objects_table"
+                            "fields": "cmso_object_id",
+                            "resource": "cmso_objects_table"
                         }
                     }
                 ]
             }
         }
-    ],
-    "title": "A CMSO data package representation of cell tracking data"
+    ]
 }
