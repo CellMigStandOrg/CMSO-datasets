@@ -1,8 +1,8 @@
 ONTOLOGY SOURCE REFERENCE
-Term Source Name	CLO	OBI	UO
-Term Source File	http://data.bioontology.org/ontologies/CLO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/UO
-Term Source Version	54	31	43
-Term Source Description	Cell Line Ontology	Ontology for Biomedical Investigations	Units of Measurement Ontology
+Term Source Name	CLO	OBI	UO	CHEBI	PR
+Term Source File	http://data.bioontology.org/ontologies/CLO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/UO	http://data.bioontology.org/ontologies/CHEBI	http://data.bioontology.org/ontologies/PR
+Term Source Version	54	31	43	154	53
+Term Source Description	Cell Line Ontology	Ontology for Biomedical Investigations	Units of Measurement Ontology	Chemical Entities of Biological Interest	Protein Ontology
 INVESTIGATION
 Investigation Identifier	1.49385E+12
 Investigation Title
@@ -81,9 +81,9 @@ Study Protocol Type Term Source REF
 Study Protocol Description
 Study Protocol URI
 Study Protocol Version
-Study Protocol Parameters Name	seeding density;cell culture antibiotics;cell culture serum;plate identifier;cell culture temperature;cell confluence level;cell culture CO2 partial pressure;cell culture configuration;cell culture vessel;cell culture medium;cell culture serum concentration;plate well row coordinate;plate well number;plate well column coordinate	targeted gene identifier;gene construct tag;perturbation agent solvent concentration;perturbation agent solvent;mode of expression;perturbation order;perturbation duration;perturbation agent type;perturbation agent;perturbation agent delivery;perturbation dose	serum concentration;migration modulator;modulator concentration;medium;medium volume;serum;modulator distribution	objective numerical aperture;calibration standard;chromatography instrument;objective type;voxel size;reporter;imaging technique;imaging technique temporal feature;acquisition channel count;objective magnification	software
-Study Protocol Parameters Name Term Accession Number	;;;;;;;;;;;;;	;;;;;;;;;;	;;;;;;	;;;;;;;;;
-Study Protocol Parameters Name Term Source REF	;;;;;;;;;;;;;	;;;;;;;;;;	;;;;;;	;;;;;;;;;
+Study Protocol Parameters Name	"seeding density;cell culture antibiotics;cell culture serum;plate identifier;cell culture temperature;cell confluence level;cell culture CO2 partial pressure;cell culture configuration;cell culture vessel;cell culture medium;cell culture serum concentration;plate well row coordinate;plate well number;plate well column coordinate;cell culture matrix"	"targeted gene identifier;gene construct tag;perturbation agent solvent concentration;perturbation agent solvent;mode of expression;perturbation order;perturbation duration;perturbation agent type;perturbation agent;perturbation agent delivery;perturbation dose"	"serum concentration;migration modulator;modulator concentration;medium;medium volume;serum;modulator distribution"	"acquisition duration;objective numerical aperture;calibration standard;chromatography instrument;objective type;voxel size;reporter;imaging technique;imaging technique temporal feature;acquisition channel count;objective magnification;time interval"	"software"
+Study Protocol Parameters Name Term Accession Number	";;;;;;;;;;;;;;"	";;;;;;;;;;"	";;;;;;"	";;;;;;;;;;;"	""
+Study Protocol Parameters Name Term Source REF	";;;;;;;;;;;;;;"	";;;;;;;;;;"	";;;;;;"	";;;;;;;;;;;"	""
 Study Protocol Components Name
 Study Protocol Components Type
 Study Protocol Components Type Term Accession Number
