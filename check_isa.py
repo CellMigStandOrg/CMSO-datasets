@@ -12,8 +12,11 @@ def main():
     for d in glob.glob("cmso*/isa"):
 
         print("attempting to load {}".format(d))
-        with open(os.path.join(os.path.abspath(d),
-                               'i_investigation.txt')) as i_fp:
+        i_files = glob.glob(os.path.join(d, 'i_*.txt'))
+        if len(i_files) != 1:
+            raise FileNotFoundError(
+                "Could not find an investigation file in {}".format(d))
+        with open(os.path.join(next(iter(i_files)))) as i_fp:
             isa_objects = isatab.load(i_fp)
             assert isa_objects is not None  # if not created, error
 
@@ -38,9 +41,11 @@ def main():
     """
     for d in glob.glob("cmso*/isa"):
         print("attempting to validate {}".format(d))
-        report = None
-        with open(os.path.join(os.path.abspath(d),
-                               'i_investigation.txt')) as i_fp:
+        i_files = glob.glob(os.path.join(d, 'i_*.txt'))
+        if len(i_files) != 1:
+            raise FileNotFoundError(
+                "Could not find an investigation file in {}".format(d))
+        with open(os.path.join(next(iter(i_files)))) as i_fp:
             report = isatab.validate(i_fp)
 
         """when the report is generated, check the number of errors if
