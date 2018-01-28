@@ -3,12 +3,18 @@ import glob
 
 from isatools import isatab
 
-def main():
-    """The simplest checks for ISA-Tab correctness is to attempt to load ISA-Tab
-    files, and then count certain objects to get an idea if the parser created
-    the correct number of each entity."""
 
-    expected_values = {'num_study_sources': [3, 1], 'num_study_samples': [12, 60]}
+def main():
+    """
+    The simplest checks for ISA-Tab correctness is to attempt to load ISA-Tab
+    files, and then count certain objects to get an idea if the parser created
+    the correct number of each entity.
+    """
+
+    expected_values = {
+        'num_study_sources': [3, 1],
+        'num_study_samples': [12, 60]
+    }
     study_number = 0
     for d in sorted(glob.glob("cmso*/isa")):
         print("attempting to load {}".format(d))
@@ -27,8 +33,10 @@ def main():
                 isa_objects.studies[-1].materials['samples'])
             print("loaded {} study sources".format(num_study_sources))
             print("loaded {} study samples".format(num_study_samples))
-            assert num_study_sources == expected_values["num_study_sources"][study_number]
-            assert num_study_samples == expected_values["num_study_samples"][study_number]
+            assert num_study_sources == \
+                expected_values["num_study_sources"][study_number]
+            assert num_study_samples == \
+                expected_values["num_study_samples"][study_number]
             print("{} load OK".format(d))
             study_number += 1
 
