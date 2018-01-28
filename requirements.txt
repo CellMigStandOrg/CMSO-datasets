@@ -1,0 +1,4 @@
+flake8
+isatools
+datapackage<1.0
+biotracks
