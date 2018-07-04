@@ -1,8 +1,8 @@
 ONTOLOGY SOURCE REFERENCE
-Term Source Name	"CLO"	"UO"	
-Term Source File	"http://data.bioontology.org/ontologies/CLO"	"http://data.bioontology.org/ontologies/UO"	
-Term Source Version	"54"	"43"	
-Term Source Description	"Cell Line Ontology"	"Units of Measurement Ontology"	
+Term Source Name	"CLO"	"UO"	"NCBITAXON"
+Term Source File	"http://data.bioontology.org/ontologies/CLO"	"http://data.bioontology.org/ontologies/UO"	"http://data.bioontology.org/ontologies/NCBITAXON"
+Term Source Version	"54"	"43"	"8"
+Term Source Description	"Cell Line Ontology"	"Units of Measurement Ontology"	"National Center for Biotechnology Information (NCBI) Organismal Classification"
 INVESTIGATION
 Investigation Identifier	"s1502982081265"
 Investigation Title	"Investigation"
