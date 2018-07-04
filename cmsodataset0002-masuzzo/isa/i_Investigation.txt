@@ -1,8 +1,8 @@
 ONTOLOGY SOURCE REFERENCE
-Term Source Name	"CLO"	"CHEBI"	"NCIT"	"UO"	"PR"	
-Term Source File	"http://data.bioontology.org/ontologies/CLO"	"http://data.bioontology.org/ontologies/CHEBI"	"http://data.bioontology.org/ontologies/NCIT"	"http://data.bioontology.org/ontologies/UO"	"http://data.bioontology.org/ontologies/PR"	
-Term Source Version	"54"	"154"	"46"	"43"	"53"	
-Term Source Description	"Cell Line Ontology"	"Chemical Entities of Biological Interest"	"National Cancer Institute Thesaurus"	"Units of Measurement Ontology"	"Protein Ontology"	
+Term Source Name	"CLO"	"CHEBI"	"NCIT"	"UO"	"PR"	"NCBITAXON"
+Term Source File	"http://data.bioontology.org/ontologies/CLO"	"http://data.bioontology.org/ontologies/CHEBI"	"http://data.bioontology.org/ontologies/NCIT"	"http://data.bioontology.org/ontologies/UO"	"http://data.bioontology.org/ontologies/PR"	"http://data.bioontology.org/ontologies/NCBITAXON"
+Term Source Version	"54"	"154"	"46"	"43"	"53"	"8"
+Term Source Description	"Cell Line Ontology"	"Chemical Entities of Biological Interest"	"National Cancer Institute Thesaurus"	"Units of Measurement Ontology"	"Protein Ontology"	"National Center for Biotechnology Information (NCBI) Organismal Classification"
 INVESTIGATION
 Investigation Identifier	"s1502981889820"
 Investigation Title	""
